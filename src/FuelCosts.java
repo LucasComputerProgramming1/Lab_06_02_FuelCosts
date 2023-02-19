@@ -34,7 +34,7 @@ public class FuelCosts {
             trash = in.nextLine();
             System.out.println("Your input is invalid, please restart and try again.");
         }
-        //Prompt For PRICE
+        //Prompt For Gas Price
         System.out.println("What is the current price of gas per gallon?");
         //Input For Gas Price
         if(in.hasNextDouble())
